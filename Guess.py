@@ -19,4 +19,4 @@ while guess != answer:
         print("Incorrect. Answer is higher!")
     else:
         print("You got it!")
-        print("Number of guess taken: " + str(numGuesses))
+        print(f"Number of guess taken: {numGuesses}")
